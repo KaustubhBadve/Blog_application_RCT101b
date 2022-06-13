@@ -54,7 +54,6 @@ const Navbar = () => {
               <IconButton
                 onClick={onToggle}
                 _focus={{
-                  boxShadow: "none",
                 }}
                 icon={
                   isOpen ? (
@@ -115,7 +114,7 @@ const Navbar = () => {
               onClick={() => linkHandler("/articles")}
               cursor="pointer"
             >
-              Articles
+              Article
             </Text>
 
             <Text
